@@ -1,6 +1,6 @@
 
 class Game{
-    constructor(height = 6, width = 7, player1, player2){
+    constructor(player1, player2, height = 6, width = 7){
         this.width = width;
         this.height = height;
         this.board = [];
